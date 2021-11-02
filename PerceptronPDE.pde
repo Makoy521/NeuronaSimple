@@ -19,7 +19,6 @@ void setup(){
 void draw(){
   background(200);
   Cardinales();
-  strokeWeight(1);
   line(width/2-width/m,0,width/2+width/m,height);
   
   for(int i = 0 ; i<Puntos.length ; i++){
@@ -43,7 +42,6 @@ void draw(){
 }
 
 void Cardinales(){
-    strokeWeight(2);
     line(width*.5,0,width*.5,height);
     line(0,height*.5,width,height*.5);
 }
